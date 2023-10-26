@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./App.css";
 import Confetti from "react-confetti";
-import Board from "./components/board";
+import Board from "./components/Board";
 
 function App() {
   const [boardSize, setBoardSize] = useState(3);
